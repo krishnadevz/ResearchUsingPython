@@ -24,4 +24,39 @@ print(a[-1]) //returns last element of the array
 **Dictionaries**
 * Python dictionaries and the key-value pairs they contain dictionaries are mutable.
 * age["Tim"]=age["Tim"]+1
-* 
+
+```js 
+>>> for x in range(10):
+...     print(x)
+... 
+```
+* List comphrehension 
+```js
+>>> numbers = range(10)
+>>> sqaures = []
+>>> for number in numbers:
+...     square =number**2
+...     sqaures.append(square)
+... 
+>>> 
+>>> sqaures
+[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+>>> 
+```
+* How can you use a list comprehension, including if and for, to sum the odd numbers from 0 through 9? 
+`sum([i for i in range(10) if i%2 == 1]).`
+```js
+krishnadevz@krishnadevz:~$ cat filename.txt
+krishnadevz@krishnadevz:~$ nano filename.txt
+krishnadevz@krishnadevz:~$ cat filename.txt
+```
+```js
+>>> filename="filename.txt"
+>>> for line in open(filename):
+...     print(line)
+... 
+hello bro how you doing ?????
+
+>>> 
+```
+
