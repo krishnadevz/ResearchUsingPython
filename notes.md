@@ -59,4 +59,15 @@ hello bro how you doing ?????
 
 >>> 
 ```
+**Functions**
+```js
+>>> def add(a,b):
+...     mysum = a+b
+...     return mysum 
+... 
+>>> 
+>>> add(2,55)
+57
+>>> 
 
+```
