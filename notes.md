@@ -71,3 +71,16 @@ hello bro how you doing ?????
 >>> 
 
 ```
+```js
+ def password(length):
+...     pw=str()
+...     characters ="abcdef"
+...     for i in range(length):
+...             pw = pw+random.choice(characters)
+...     return pw
+... 
+>>> password(3)
+```
+* `letter in 'aeiouy'` for check vowel we can use this 
+
+
